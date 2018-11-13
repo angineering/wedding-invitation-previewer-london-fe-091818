@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Wedding Invitation Designer</h1>
+    </header>
+    <main>
+      <section id="create" class="split left">
+        <ul id="invitation-type">
+          <li><a href='#'>Formal</a></li>
+          <li><a href='#'>Art Deco</a></li>
+          <li><a href='#'>Modern</a></li>
+        </ul>
+        <form name="details">
+          <label for="name1">1st Name</label>
+          <input id="name1" name="name1" type="text" />
+          <label for="name2">2nd Name</label>
+          <input id="name2" name="name2" type="text" />
+          <label for="surname">Last Name</label>
+          <input id="surname" name="surname" type="text" />
+          <label for="time">Time</label>
+          <input id="time" name="time" type="time" />
+          <label for="date">Date</label>
+          <input id="date" name="date" type="date" />
+          <label for="location">Location</label>
+          <input id="location" name="location" type="text" />
+        </form>
+      </section>
+      <section id="display" class="split right">
+        <div id="invitation">
+          <h1 id="initials"></h1>
+          <p>You are cordially invited to the wedding of</p>
+          <h2 id="fnames"></h2>
+          <h1 id="lastname"></h1>
+          <h3 id="wedding-time"></h3>
+          <h3 id="wedding-date"></h3>
+          <h3 id="wedding-location"></h3>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright 2018 Angela Branaes</p>
+    </footer>
+  </body>
+</html>
